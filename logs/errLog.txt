@@ -1,2 +1,12 @@
 08/08/2022	14:04:02	f80b0ad1-009a-4c30-b4c0-0dbfb03061ce	Error: Not allowed by CORS
 08/08/2022	17:31:53	e0e78f61-4362-4a65-9cf1-f54d73e95ed4	Error: Not allowed by CORS
+10/03/2022	14:33:51	4a157aa9-6b97-49e6-8143-08f4df76b424	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+10/03/2022	14:35:15	6ff596f2-73ab-4102-8592-09f5e862bda7	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
